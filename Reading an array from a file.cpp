@@ -1,10 +1,9 @@
 #include <iostream>
 #include <cstdlib>
-#include <string>
 #include <fstream>
 
 int main() {
-	std::ifstream data{ "in.txt", std::ifstream::app };
+	std::ifstream data{ "in.txt" };
 
 	if (data.is_open()) {
 		int size{};
